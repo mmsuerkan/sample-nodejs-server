@@ -1,0 +1,17 @@
+{
+  "name": "json-server-starter",
+  "private": true,
+  "scripts": {
+    "frontend": "http-server -p 8080",
+    "backend": "json-server -w db.json --host 0.0.0.0",
+    "docker:build": "docker-compose build",
+    "docker:up": "docker-compose up",
+    "docker:down": "docker-compose down"
+  },
+  "dependencies": {
+    "http-server": "^0.12.3"
+  },
+  "devDependencies": {
+    "json-server": "^0.16.3"
+  }
+}

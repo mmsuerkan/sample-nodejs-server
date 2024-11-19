@@ -1,0 +1,59 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "number": 23,
+      "position": "Forward",
+      "height": "198",
+      "age": 25,
+      "teamId": 1
+    },
+    {
+      "id": 2,
+      "name": "Mike Johnson",
+      "number": 11,
+      "position": "Guard",
+      "height": "188",
+      "age": 22,
+      "teamId": 1
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "name": "Eagles",
+      "division": "A",
+      "coach": "Robert Wilson",
+      "foundedYear": 1990
+    },
+    {
+      "id": 2,
+      "name": "Hawks",
+      "division": "B",
+      "coach": "James Brown",
+      "foundedYear": 1995
+    }
+  ],
+  "matches": [
+    {
+      "id": 1,
+      "homeTeamId": 1,
+      "awayTeamId": 2,
+      "homeScore": 86,
+      "awayScore": 82,
+      "date": "2024-01-15",
+      "venue": "City Arena"
+    }
+  ],
+  "statistics": [
+    {
+      "id": 1,
+      "playerId": 1,
+      "matchId": 1,
+      "points": 24,
+      "rebounds": 8,
+      "assists": 5
+    }
+  ]
+}
